@@ -1,2 +1,1 @@
-remote_theme: aksakalli/jekyll-doc-theme@gh-pages
-bootwatch: readable
+remote_theme: tomjoht/documentation-theme-jekyll@gh-pages
