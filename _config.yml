@@ -1,1 +1,54 @@
 remote_theme: tomjoht/documentation-theme-jekyll@gh-pages
+topnav_title: Jekyll Documentation Theme
+# this appears on the top navigation bar next to the home button
+
+site_title: Contemporary Venezuela
+# this appears in the html browser tab for the site title (seen mostly by search engines, not users)
+
+company_name: Contemporary Venezuela
+# this appears in the footer
+
+feedback_disable: true
+# if you uncomment the previous line, the Feedback link gets removed
+
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
+      search: true
+      sidebar: home_sidebar
+      topnav: topnav
+  -
+    scope:
+      path: ""
+      type: "tooltips"
+    values:
+      layout: "page"
+      search: true
+      tooltip: true
+
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: false
+      # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
+      search: true
+      sidebar: home_sidebar
+      topnav: topnav
+
+# these are defaults used for the frontmatter for these file types
+
+sidebars:
+- home_sidebar
+- other
+
+description: "This is a project to attempt to document the Venezuelan culture and events occurring in the country"
